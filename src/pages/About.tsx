@@ -2,11 +2,10 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 
 function About() {
-    return (<>
+    return (
         <React.Fragment>
-            <div className='text-yellow-500'>About</div>
-
-        </React.Fragment><Outlet /></>
+            <div className='text-yellow-500'>About</div><Outlet />
+        </React.Fragment>
     )
 }
 
