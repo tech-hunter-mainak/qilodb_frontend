@@ -1,3 +1,4 @@
+import imgFront from '../assets/image_qilodb_front.jpg';
 function Hero() {
     return (
         <div className="bg-white">
@@ -23,7 +24,7 @@ function Hero() {
                             </div>
                         </div>
                         <div className="w-full md:w-1/2">
-                            <div className="w-full h-80 overflow-hidden rounded-md shadow-xl sm:rounded-xl bg-[url('./image_qilodb_front.jpg')] bg-cover bg-center">
+                            <div className="w-full h-80 overflow-hidden rounded-md shadow-xl sm:rounded-xl bg-cover bg-center" style={{ backgroundImage: `url(${imgFront})` }}>
                             </div>
                         </div>
                     </div>
