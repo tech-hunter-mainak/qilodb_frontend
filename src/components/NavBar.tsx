@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 function NavBar() {
     const navigate = useNavigate()
     const handleDownloadClick = () => {
@@ -9,9 +9,9 @@ function NavBar() {
             <section className="w-full px-8 text-gray-700 bg-white fixed z-50">
                 <div className="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
                     <div className="relative flex flex-col md:flex-row">
-                        <a href="#_" className="flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0">
+                        <Link to="/" className="flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0">
                             <img src="favicon.ico" alt="" className='w-28 -m-4' />
-                        </a>
+                        </Link>
                         <nav className="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
                             <button className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900" onClick={()=>navigate('/')}>Home</button>
                             <button className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900" onClick={()=>navigate('/#features')}>Features</button>

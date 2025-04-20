@@ -2,7 +2,7 @@ import React from "react"
 function Features() {
     return (
         <React.Fragment>
-            <section className="bg-white text-black">
+            <section id="features" className="bg-white text-black">
                 <div className="container max-w-xl p-6 mx-auto space-y-12 lg:px-8 lg:max-w-7xl">
                     <div>
                         <h2 className="text-3xl font-bold text-center sm:text-5xl">Explore Features</h2>

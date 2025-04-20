@@ -11,7 +11,7 @@ import Docs from './pages/Docs'
 function App() {
 
   return (
-    <React.Fragment>
+    <React.StrictMode>
       <Router>
         <NavBar />
         <Routes>
@@ -20,9 +20,9 @@ function App() {
           <Route path='/docs' element={<Docs />}></Route>
           <Route path='/download' element={<Download />} />
         </Routes>
+        <Footer />
       </Router>
-      <Footer />
-    </React.Fragment>
+    </React.StrictMode>
   )
 }
 
