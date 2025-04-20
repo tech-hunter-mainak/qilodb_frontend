@@ -1,5 +1,8 @@
 @import "tailwindcss";
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
 #root {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  width: calc(100% - 0.04rem) !important;
 }

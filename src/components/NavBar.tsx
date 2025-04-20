@@ -1,4 +1,9 @@
+import { useNavigate } from 'react-router-dom'
 function NavBar() {
+    const navigate = useNavigate()
+    const handleDownloadClick = () => {
+        navigate('/download')
+    }
     return (
         <div>
             <section className="w-full px-8 text-gray-700 bg-white fixed z-50">
@@ -8,10 +13,10 @@ function NavBar() {
                             <span className="mx-auto text-xl font-black leading-none text-gray-900 select-none">AI<span className="text-indigo-600">.</span></span>
                         </a>
                         <nav className="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
-                            <a href="#_" className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Home</a>
-                            <a href="#_" className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Features</a>
-                            <a href="#_" className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Docs</a>
-                            <a href="#_" className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Download</a>
+                            <button className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900" onClick={()=>navigate('/')}>Home</button>
+                            <button className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900" onClick={()=>navigate('/#features')}>Features</button>
+                            <button className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900" onClick={()=>navigate('/docs')}>Docs</button>
+                            <button className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900" onClick={handleDownloadClick}>Download</button>
                         </nav>
                     </div>
 
