@@ -2,8 +2,8 @@ import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import About from './pages/About'
-import Contect from './pages/Contect'
 import Home from './pages/Home'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -13,11 +13,12 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />}>
-            <Route path='a' element={<Contect />} /> {/* nested route inside /about */}
+            <Route path='a' element={<Home />} /> {/* nested route inside /about */}
           </Route>
-          <Route path='/contect' element={<Contect />} />
+          <Route path='/contect' element={<Home />} />
         </Routes>
       </Router>
+      <Footer />
     </React.StrictMode>
   )
 }
