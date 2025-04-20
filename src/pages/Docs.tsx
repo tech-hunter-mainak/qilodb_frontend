@@ -9,7 +9,7 @@ const ReadmeViewer = () => {
   const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
-    fetch('/README.md')
+    fetch('https://raw.githubusercontent.com/tech-hunter-mainak/qilodb_frontend/main/README.md')
       .then((res) => res.text())
       .then((text) => setMarkdown(text));
   }, []);
