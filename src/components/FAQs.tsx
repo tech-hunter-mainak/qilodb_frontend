@@ -36,11 +36,11 @@ const FAQs: React.FC = () => {
     };
 
     return (
-        <section className="max-w-screen mx-auto px-4 py-12 bg-white flex flex-col items-center text-black">
+        <section id='faqs' className="max-w-screen mx-auto px-4 py-12 bg-white flex flex-col items-center text-black">
             <h2 className="text-3xl font-bold text-center mb-8  sm:text-5xl">Frequently Asked Questions</h2>
-            <div className='flex flex-col md:flex-row gap-x-8'>
+            <div className='flex flex-col md:flex-row gap-x-8 flex-wrap justify-center items-center'>
                 <div className='w-auto flex justify-center'>
-                    <img src={question} alt="" width={350} />
+                    <img src={question} alt="" className='h-80 min-w-max' />
                 </div>
                 <div className="space-y-4 max-w-3xl flex flex-col h-auto justify-center">
                     {faqs.map((faq, index) => {
@@ -53,7 +53,7 @@ const FAQs: React.FC = () => {
                             >
                                 <button
                                     onClick={() => toggleFAQ(index)}
-                                    className="w-full flex justify-between items-center px-6 py-4 text-left bg-white hover:bg-gray-50 transition"
+                                    className="w-full flex justify-between items-center px-6 py-4 text-left bg-neutral-200 hover:bg-gray-50 transition"
                                 >
                                     <span className="font-medium text-gray-800">{faq.question}</span>
 

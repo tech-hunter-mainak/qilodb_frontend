@@ -10,15 +10,15 @@ function Download() {
                     <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl">Download QiloDB</h2>
                     <p className="mt-4 text-lg text-gray-500">Get started with QiloDB by downloading the latest version. It's free and open-source!</p>
                     <div className="flex flex-col items-center justify-center mt-8 space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                        <a href="/" className="flex flex-col gap-4 items-center justify-center px-6 py-3 text-base font-medium text-gray-700 bg-neutral-300 border border-transparent rounded-md shadow-sm hover:!bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:!ring-indigo-500">
+                        <a href="QiloDB_Installer.exe" download={true} className="flex flex-col gap-4 items-center justify-center px-6 py-3 text-base font-medium text-gray-700 bg-neutral-300 border border-transparent rounded-md shadow-sm hover:!bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:!ring-indigo-500">
                             <img src={windows} alt="" className="w-20" />
                             <div className="ml">Download for Windows</div>
                         </a>
-                        <a href="/" className="flex flex-col gap-4 items-center justify-center px-6 py-3 text-base font-medium text-gray-700 bg-neutral-300 border border-transparent rounded-md shadow-sm hover:!bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                        <a href="qiloDB.pkg" download={true} className="flex flex-col gap-4 items-center justify-center px-6 py-3 text-base font-medium text-gray-700 bg-neutral-300 border border-transparent rounded-md shadow-sm hover:!bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
                             <img src={apple} alt="" className="w-20" />
                             <div className="ml2">Download for Mac</div>
                         </a>
-                        <a href="/" className="flex flex-col gap-4 items-center justify-center px-6 py-3 text-base font-medium text-gray-700 bg-neutral-300 border border-transparent rounded-md shadow-sm hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                        <a href="https://github.com/tech-hunter-mainak/dbms" target="_blank" className="flex flex-col gap-4 items-center justify-center px-6 py-3 text-base font-medium text-gray-700 bg-neutral-300 border border-transparent rounded-md shadow-sm hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
                             <img src={linux} alt="" className="w-20" />
                             <div className="ml2">Download for Linux</div>
                         </a>
