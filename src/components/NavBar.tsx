@@ -42,6 +42,8 @@ function NavBar() {
                         <button 
                             className="md:hidden text-gray-700 focus:outline-none"
                             onClick={() => setMenuOpen(!menuOpen)}
+                            aria-label="Toggle menu"
+                            aria-expanded={menuOpen ? 'true' : 'false'}
                         >
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                                 {menuOpen ? (

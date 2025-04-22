@@ -94,13 +94,13 @@ function Footer() {
                             </button>
                             {/* Social Media Icons */}
                             <div className="flex items-center space-x-4 mt-6">
-                                <a href="https://github.com/tech-hunter-mainak/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-xl">
+                                <a aria-label="Github Link" href="https://github.com/tech-hunter-mainak/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-xl">
                                     <FaGithub />
                                 </a>
-                                <a href="https://linkedin.com/in/mainakdasnits" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-xl">
+                                <a aria-label="Linkedin Link" href="https://linkedin.com/in/mainakdasnits" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-xl">
                                     <FaLinkedin />
                                 </a>
-                                <a href="https://facebook.com/mainak.nitS" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-xl">
+                                <a aria-label="Facebook Link" href="https://facebook.com/mainak.nitS" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-xl">
                                     <FaFacebook />
                                 </a>
                             </div>

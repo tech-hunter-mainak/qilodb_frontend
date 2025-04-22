@@ -16,19 +16,14 @@ function Features() {
                                         <div className="flex items-center justify-center w-12 h-12 rounded-md">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                className="lucide lucide-rocket">
-                                                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z">
-                                                </path>
-                                                <path
-                                                    d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z">
-                                                </path>
-                                                <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
-                                                <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                                                className="lucide lucide-video">
+                                                <path d="m22 8-6 4 6 4V8Z"></path>
+                                                <rect width="14" height="12" x="2" y="6" rx="2" ry="2"></rect>
                                             </svg></div>
                                     </div>
                                     <div className="ml-4">
-                                        <h4 className="text-lg font-medium leadi ">Lightweight and Fast Query Processing</h4>
-                                        <p className="mt-2 ">QiloDB is built with minimal dependencies and a small memory footprint. Perfect for quick setups, small-scale tools, or embedded CLI projects and optimized for blazing-fast command execution, handling queries efficiently even on lower-end systems. Say goodbye to lag while querying your data.</p>
+                                        <h4 className="text-lg font-medium leadi ">Encrypted Data Storage</h4>
+                                        <p className="mt-2 ">Ensure data access security with a built-in password authentication system. QiloDB offers a secure modern CLI to keep your data safe. All stored data is encrypted to protect sensitive information. QiloDB ensures your data stays private and secure at all times.</p>
                                     </div>
                                 </div>
                                 <div className="flex">
@@ -52,14 +47,19 @@ function Features() {
                                         <div className="flex items-center justify-center w-12 h-12 rounded-md">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                className="lucide lucide-video">
-                                                <path d="m22 8-6 4 6 4V8Z"></path>
-                                                <rect width="14" height="12" x="2" y="6" rx="2" ry="2"></rect>
+                                                className="lucide lucide-rocket">
+                                                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z">
+                                                </path>
+                                                <path
+                                                    d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z">
+                                                </path>
+                                                <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+                                                <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
                                             </svg></div>
                                     </div>
                                     <div className="ml-4">
-                                        <h4 className="text-lg font-medium leadi ">Encrypted Data Storage</h4>
-                                        <p className="mt-2 ">Ensure data access security with a built-in password authentication system. QiloDB offers a secure modern CLI to keep your data safe. All stored data is encrypted to protect sensitive information. QiloDB ensures your data stays private and secure at all times.</p>
+                                        <h4 className="text-lg font-medium leadi ">Lightweight and Fast Query Processing</h4>
+                                        <p className="mt-2 ">QiloDB is built with minimal dependencies and a small memory footprint. Perfect for quick setups, small-scale tools, or embedded CLI projects and optimized for blazing-fast command execution, handling queries efficiently even on lower-end systems. Say goodbye to lag while querying your data.</p>
                                     </div>
                                 </div>
                                 <div className="flex">
